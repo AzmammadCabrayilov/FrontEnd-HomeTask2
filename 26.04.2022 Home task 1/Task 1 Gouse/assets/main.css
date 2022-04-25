@@ -1,0 +1,31 @@
+.container{
+    background-color: #FAF3E3;
+    padding: 0px 120px;
+
+}
+.container h1{
+    font-family: serif;
+}
+
+.mysection{
+    text-align: center;
+    width: 100%;
+}
+
+.abovehr img{
+    background-color: #FAF3E3;
+    border-radius: 100%;
+}
+h1{
+    border-bottom: 3px solid aqua;
+}
+.afterhr{
+    text-align: left;
+
+}
+h2{
+    color: #D1633C;
+}
+.afterhr p{
+    font-size: larger;
+}

@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    background-color: rgba(92, 161, 161, 0.829);
+    text-align: center;
+}
+
+.cardpost{
+    width: 55%;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    border-radius: 40px ;
+    box-shadow: 0px 7px 7px 0px;
+
+}
+.cardpost img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+
+h2{
+    color: #9F9F9F;
+}
+.cardpost p{
+    font-size: 18px;
+}
+button{
+    width: 200px;
+    height: 45px;
+    background-color: black;
+    font-size: 21px;
+    color: #FFFFFF;
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
