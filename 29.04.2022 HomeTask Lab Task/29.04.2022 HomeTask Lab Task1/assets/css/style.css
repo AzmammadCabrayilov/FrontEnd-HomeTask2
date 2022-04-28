@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.clear{
+    clear: both;
+}
+header {
+  background-image: url("../images/bg-masthead.jpg");
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+header .container .headercontent {
+  padding-top: 22%;
+}
+header .container h1 {
+  font-size: 80px;
+}
+header .container p {
+  font-size: 25px;
+  font-weight: bolder;
+  padding-bottom: 50px;
+}
+header .container .btnheader {
+  width: 180px;
+  height: 60px;
+  background-color: #1d809f;
+  box-shadow: none;
+  font-size: 15px;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+}
+header .container .btnheader:hover {
+  background-color: #1b7996de;
+  transition: all 0.3 ease;
+}
+/* End Header */
+
+/*Start Portfolio Section */
+.portfolio .portfoliocontent {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.portfolio .portfoliocontent h2 {
+  font-size: 27px;
+  margin-bottom: 10px;
+}
+.portfolio .portfoliocontent p {
+  font-size: 17px;
+  padding-bottom: 50px;
+}
+.portfolio .portfoliocontent .btn2 {
+  width: 180px;
+  height: 60px;
+  background-color: #212529;
+  box-shadow: none;
+  font-size: 15px;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+}
+.portfolio .portfoliocontent .btn2:hover {
+  background-color: #11161e;
+  transition: all 0.3 ease;
+}
+/* End Portfolio */
+
+/* Start Services */
+.services .srvcontent {
+  padding-top: 100px;
+  padding-bottom: 150px;
+  background-color: #1d809f;
+}
+.services .srvcontent h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: white;
+  padding-bottom: 50px;
+}
+.services .srvcontent h5 {
+  color: #ecb807;
+  margin-bottom: 10px;
+}
+.iconswrapper {
+  width: 100%;
+  height: 200px;
+}
+.iconswrapper .item {
+  width: 25%;
+  height: 200px;
+  float: left;
+  padding: 0px 20px;
+}
+.iconswrapper .item .icons {
+  width: 110px;
+  height: 110px;
+  border-radius: 100%;
+  background-color: #f1f7f9;
+  margin: auto;
+}
+.iconswrapper .item h4 {
+  margin: 20px 0px;
+  color: white;
+}
+.iconswrapper .item p {
+  font-size: 14px;
+  color: white;
+}
+.iconswrapper .icons i {
+  font-size: 50px;
+  margin: 25px 0px;
+  display: inline-block;
+  color: #1d809f;
+}
+/* End Services */
+
+/* Start Welcome */
+.welcome .wcontent {
+  width: 100%;
+  height: 710px;
+  background-image: url(../images/bg-welcomesection.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+.welcome .wcontent h2 {
+  padding-top: 280px;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.welcome .container .wlcbtn {
+  width: 180px;
+  height: 60px;
+  background-color: #1d809f;
+  box-shadow: none;
+  font-size: 15px;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+}
+.welcome .container .wlcbtn:hover {
+  background-color: #1b5365de;
+  transition: all 0.4 ease;
+}
+/* End Welcome */
+
+/* Start Recend */
+
+.recend .rcontent h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: black;
+  padding-bottom: 50px;
+}
+.recend .rcontent h5 {
+  color: #ecb807;
+  margin-bottom: 10px;
+}
+.recend .rcontent {
+  padding-top: 100px;
+}
+.recend .rcontent .imgwrapper {
+  margin: auto;
+  width: 90%;
+  background-color: forestgreen;
+}
+
+.imgwrapper .imgitem {
+  width: 50%;
+  height: 300px;
+  background-color: aquamarine;
+  float: left;
+  text-align: left;
+}
+.imgwrapper .imgitem:hover {
+  transform: scale(0.9);
+  transition: all .2s ease;
+}
+.imgitem1 {
+  background-image: url(../images/item1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+.imgitem2 {
+  background-image: url(../images/item2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+.imgitem3 {
+  background-image: url(../images/item3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+.imgitem4 {
+  background-image: url(../images/bg-welcomesection.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+.imgitem h6 {
+  padding-top: 200px;
+  padding-left: 40px;
+  font-weight: bold;
+  color: white;
+  font-size: 15px;
+}
+.imgitem p {
+  padding: 10px 0px 0px 40px;
+  color: white;
+}
+/* End Recend */
+
+/* Start Blue */
+.blue .bluecontent{
+    width: 100%;
+    height: 350px;
+    background-color: #1d809f;
+    margin-top: 80px;
+}
+.blue h2{
+    padding-top: 120px;
+    font-size: 1.8em;
+    color: white;
+    padding-bottom: 20px;
+}
+.blue .btn{
+    width: 150px;
+    height: 70px;
+    border-radius: 10px;
+    border: none;
+    margin: 7px;
+}
+.blue .btn2{
+    background-color: #212529;
+    color: white;
+}
+.blue .btn2:hover{
+    background-color: #101923;
+}
+/* End Blue */
+
+/* Start Map */
+.mapwrapper iframe{
+    width: 100%;
+    height: 500px;
+}
+/* End Map */
+
+/* Start Footer */
+
+.iconsftr .item{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: #1d809f;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+
+}
