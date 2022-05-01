@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+
+/* Start */
+.vilyam{
+    width: 800px;
+    height: 500px;
+    background-image: url(../images/70min.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    position: relative;
+}
+.vilyam .info{
+    width: 100%;
+    height: 100px;
+    background-color: #22303e;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+}
+.vilyam .info p{
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+.vilyam .date{
+    width: 32%;
+    height: 50px;
+    background-color: #177986;
+    padding: 0px 20px;
+    position: absolute;
+    left: 0;
+    bottom: 100px;
+}
+.vilyam .date pre{
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 50px;
+}
+.vilyam .angle{
+    font-size: 100px;
+    color: #fff;
+    padding: 20px;
+}
+.vilyam .leftspan{
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%);
+}
+.vilyam .rightspan{
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%,-50%);
+}

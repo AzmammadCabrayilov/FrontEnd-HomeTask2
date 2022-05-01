@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+.container{
+    width: 95%;
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+}
+.bear{
+    width: 24%;
+    padding: 0px 15px;
+    display: inline-block;
+    margin-top: 30px;
+    position: relative;
+}
+.bear:hover .hoverlay{
+    opacity: 1;
+    visibility: visible;
+    transition: all .4s ease-in-out;
+}
+.hoverlay{
+    opacity: 0;
+    visibility: hidden;
+}
+.bear .imgwrapper{
+    width: 100%;
+
+}
+.bear .imgwrapper img{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.bear .content h2{
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.bear .content p{
+    font-weight: 900;
+    color: rgb(11, 93, 16);
+    font-size: 20px;
+    margin-top: 10px;
+}
+.bear .content i{
+    background-color: #fff;
+    color: gold;
+    margin-top: 10px;
+}
+.new{
+    width: 50px;
+    height: 25px;
+    background-color: rgb(173, 166, 166);
+    position: absolute;
+    top: 10px;
+    left: 25px;
+}
+.new p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.hiconswrapper {
+    width: 40px;
+    height: 150px;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    z-index: 1;
+}
+.hiconswrapper .hicon{
+    width: 40px;
+    height: 30px;
+    background-color: rgb(8, 125, 102);
+    margin-bottom: 10px;
+}
+.hiconswrapper i{
+    line-height: 30px;
+}
