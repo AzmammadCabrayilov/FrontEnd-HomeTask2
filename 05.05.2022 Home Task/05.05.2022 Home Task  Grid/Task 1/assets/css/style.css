@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.mydiv{
+    height: 200px;
+    background-color: rgb(17, 202, 165);
+    border: 1px solid black;
+}
+.wrapper{
+    padding: 10px;
+
+}
+.big{
+    height: 420px;
+}
