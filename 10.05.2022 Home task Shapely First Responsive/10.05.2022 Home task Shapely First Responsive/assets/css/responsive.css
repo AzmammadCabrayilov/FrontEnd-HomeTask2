@@ -1,0 +1,27 @@
+@media (max-width: 992px) {
+    nav{
+        position: static;
+    }
+    header .hcontent h1 {
+        font-size: 2em;
+      }
+    
+      header .hcontent p {
+        font-size: 0.8em;
+      }
+      .ceoitems{
+          padding: 0!important;
+          margin: 0!important;
+      }
+
+}
+
+@media (max-width: 768px) {
+  header .hcontent h1 {
+    font-size: 1.5em;
+  }
+
+  header .hcontent p {
+    font-size: 0.6em;
+  }
+}
